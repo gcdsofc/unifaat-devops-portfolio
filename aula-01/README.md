@@ -50,4 +50,4 @@ npm start
 ## Dificuldades encontradas
 
 - O Docker estava instalado, mas o Docker Engine nao estava rodando no inicio da atividade. A solucao e abrir o Docker Desktop antes de executar os testes de container.
-- Ainda preciso preencher meu nome completo, RA e usuario do GitHub antes de publicar a entrega final.
+- Depois de iniciar o Docker Desktop, consegui construir a imagem, rodar o container e registrar a evidencia em `docker-logs.txt`.

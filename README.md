@@ -1,7 +1,7 @@
 # Portfolio DevOps - UniFAAT 2026-2
 
-**Aluno:** A preencher  
-**RA:** A preencher  
+**Aluno:** Gabriel Carneiro da Silva  
+**RA:** 6325300  
 **Disciplina:** DevOps - Centro Universitario UniFAAT  
 **Professor:** Alexandre Tavares  
 **Semestre:** 2026-2
