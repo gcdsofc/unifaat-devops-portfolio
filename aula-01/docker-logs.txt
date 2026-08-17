@@ -1,0 +1,23 @@
+Docker evidence - Aula 01
+Generated at: 2026-08-17
+
+---
+Container running:
+
+NAMES            IMAGE                  STATUS          PORTS
+portfolio-test   portfolio-aula01:1.0   Up 46 seconds   0.0.0.0:3000->3000/tcp, [::]:3000->3000/tcp
+
+---
+Container logs:
+
+Portfolio API rodando na porta 3000
+
+---
+API Response - /
+
+{"servico":"DevOps Portfolio API","aluno":"A preencher","ra":"A preencher","aula":"01 - Fundamentos de Git e Docker","status":"online","timestamp":"2026-08-17T23:24:21.909Z"}
+
+---
+API Response - /health
+
+{"status":"healthy","uptime":40.852069803,"version":"1.0.0"}
