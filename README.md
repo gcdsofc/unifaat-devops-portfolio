@@ -14,8 +14,12 @@ Aqui documento minha evolucao desde os fundamentos de Git e Docker ate pipelines
 ## Estrutura
 
 - `aula-01/` - Fundamentos de Git e Docker
+- `aula-02/` - Docker Compose e IA como copiloto DevOps
 
 ## Aprendizados
 
 Na Aula 01, comecei pela base de DevOps: versionar codigo com Git e padronizar ambiente com Docker.
 O objetivo e sair do caos de arquivos soltos e ambientes diferentes para um fluxo reproduzivel, rastreavel e pronto para evoluir nas proximas aulas.
+
+Na Aula 02, evolui o ambiente para uma aplicacao multi-container com Docker Compose.
+A API agora sobe junto com PostgreSQL e Redis em um unico comando, usando rede customizada, volume nomeado, healthchecks e variaveis de ambiente fora do codigo.
