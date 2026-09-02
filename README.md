@@ -15,6 +15,7 @@ Aqui documento minha evolucao desde os fundamentos de Git e Docker ate pipelines
 
 - `aula-01/` - Fundamentos de Git e Docker
 - `aula-02/` - Docker Compose e IA como copiloto DevOps
+- `aula-03/` - Terraform e seguranca AWS com IAM
 
 ## Aprendizados
 
@@ -23,3 +24,6 @@ O objetivo e sair do caos de arquivos soltos e ambientes diferentes para um flux
 
 Na Aula 02, evolui o ambiente para uma aplicacao multi-container com Docker Compose.
 A API agora sobe junto com PostgreSQL e Redis em um unico comando, usando rede customizada, volume nomeado, healthchecks e variaveis de ambiente fora do codigo.
+
+Na Aula 03, comecei a trabalhar com Infraestrutura como Codigo usando Terraform.
+O foco foi desenhar uma estrutura IAM segura para a TechNova, com users, groups, policies customizadas, service role para EC2 e aplicacao do principio do menor privilegio.
