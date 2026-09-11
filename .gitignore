@@ -14,3 +14,18 @@ Thumbs.db
 # Build
 dist/
 build/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfplan
+crash.log
+crash.*.log
+
+# Chaves e credenciais locais
+*.pem
+*.key
+technova-key*

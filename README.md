@@ -16,6 +16,7 @@ Aqui documento minha evolucao desde os fundamentos de Git e Docker ate pipelines
 - `aula-01/` - Fundamentos de Git e Docker
 - `aula-02/` - Docker Compose e IA como copiloto DevOps
 - `aula-03/` - Terraform e seguranca AWS com IAM
+- `aula-04/` - Terraform VPC, networking AWS e EC2 Multi-AZ
 
 ## Aprendizados
 
@@ -27,3 +28,6 @@ A API agora sobe junto com PostgreSQL e Redis em um unico comando, usando rede c
 
 Na Aula 03, comecei a trabalhar com Infraestrutura como Codigo usando Terraform.
 O foco foi desenhar uma estrutura IAM segura para a TechNova, com users, groups, policies customizadas, service role para EC2 e aplicacao do principio do menor privilegio.
+
+Na Aula 04, evolui a infraestrutura para uma VPC customizada Multi-AZ.
+O projeto cria subnets publicas e privadas, Internet Gateway, Route Table publica, Security Groups, Key Pair, EC2 t2.micro com User Data e Instance Profile para a API da TechNova.
