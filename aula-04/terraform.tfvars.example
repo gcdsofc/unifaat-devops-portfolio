@@ -1,0 +1,21 @@
+# Copie este arquivo para terraform.tfvars se quiser aplicar localmente.
+# Nunca versione terraform.tfvars real.
+
+aws_region = "us-east-1"
+owner_ra   = "6325300"
+
+availability_zones = ["us-east-1a", "us-east-1b"]
+
+# Opcao 1: usar a chave publica do arquivo local.
+public_key_path = "~/.ssh/technova-key.pub"
+
+# Opcao 2: informar a chave publica diretamente.
+# ssh_public_key = "ssh-ed25519 AAAA... seu-email"
+
+# No AWS Academy Learner Lab, se a criacao de IAM Role estiver bloqueada,
+# use o Instance Profile ja existente:
+# use_lab_instance_profile = true
+
+# Se a conta usada para gerar o plan nao tiver permissao ec2:DescribeImages,
+# informe temporariamente uma AMI Amazon Linux 2023 da regiao escolhida.
+# ami_id_override = "ami-0c101f26f147fa7fd"
