@@ -1,0 +1,7 @@
+aws_region   = "us-east-1"
+project_name = "technova"
+environment  = "staging"
+owner_ra     = "6325300"
+ami_id       = "ami-0c101f26f147fa7fd"
+key_name     = "technova-key"
+db_password  = "StagingChangeMe6325300"

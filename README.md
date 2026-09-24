@@ -18,6 +18,7 @@ Aqui documento minha evolucao desde os fundamentos de Git e Docker ate pipelines
 - `aula-03/` - Terraform e seguranca AWS com IAM
 - `aula-04/` - Terraform VPC, networking AWS e EC2 Multi-AZ
 - `aula-05/` - RDS PostgreSQL e remote state com S3 + DynamoDB
+- `aula-06/` - Modulos Terraform reutilizaveis para VPC, SG, EC2 e RDS
 
 ## Aprendizados
 
@@ -35,3 +36,6 @@ O projeto cria subnets publicas e privadas, Internet Gateway, Route Table public
 
 Na Aula 05, adicionei a camada de dados com Amazon RDS PostgreSQL e protegi o state do Terraform usando S3 com versionamento, criptografia e DynamoDB para locking.
 O foco foi separar dados persistentes da instancia EC2 e evitar perda/corrupcao do `terraform.tfstate`.
+
+Na Aula 06, refatorei a infraestrutura para uma biblioteca de modulos Terraform.
+O projeto agora tem modulos reutilizaveis para VPC, Security Group, EC2 e RDS, com ambientes `dev` e `staging` usando a mesma base de codigo e variaveis diferentes.
