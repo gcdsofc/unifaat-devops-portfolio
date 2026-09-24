@@ -17,6 +17,7 @@ Aqui documento minha evolucao desde os fundamentos de Git e Docker ate pipelines
 - `aula-02/` - Docker Compose e IA como copiloto DevOps
 - `aula-03/` - Terraform e seguranca AWS com IAM
 - `aula-04/` - Terraform VPC, networking AWS e EC2 Multi-AZ
+- `aula-05/` - RDS PostgreSQL e remote state com S3 + DynamoDB
 
 ## Aprendizados
 
@@ -31,3 +32,6 @@ O foco foi desenhar uma estrutura IAM segura para a TechNova, com users, groups,
 
 Na Aula 04, evolui a infraestrutura para uma VPC customizada Multi-AZ.
 O projeto cria subnets publicas e privadas, Internet Gateway, Route Table publica, Security Groups, Key Pair, EC2 t2.micro com User Data e Instance Profile para a API da TechNova.
+
+Na Aula 05, adicionei a camada de dados com Amazon RDS PostgreSQL e protegi o state do Terraform usando S3 com versionamento, criptografia e DynamoDB para locking.
+O foco foi separar dados persistentes da instancia EC2 e evitar perda/corrupcao do `terraform.tfstate`.
