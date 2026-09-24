@@ -1,0 +1,16 @@
+aws_region = "us-east-1"
+owner_ra   = "6325300"
+
+availability_zones = ["us-east-1a", "us-east-1b"]
+
+db_name     = "technova"
+db_username = "technova_admin"
+db_password = "TroqueEssaSenha6325300"
+
+public_key_path = "~/.ssh/technova-key.pub"
+
+# Se a conta nao puder consultar AMIs, informe uma AMI Amazon Linux 2023.
+# ami_id_override = "ami-0c101f26f147fa7fd"
+
+# No AWS Academy, normalmente mantenha true.
+use_lab_instance_profile = true

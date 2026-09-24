@@ -1,0 +1,4 @@
+aws_region          = "us-east-1"
+bucket_name         = "technova-tfstate-6325300-aula05"
+dynamodb_table_name = "technova-terraform-locks-6325300-aula05"
+owner_ra            = "6325300"
